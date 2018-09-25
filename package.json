@@ -1,15 +1,12 @@
 {
-  "name": "neighborhood-map",
+  "name": "react-neighborhood-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "create-react-class": "^15.6.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "^1.1.1",
-    "react-select": "^1.2.1"
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
