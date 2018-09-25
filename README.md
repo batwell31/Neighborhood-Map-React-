@@ -19,7 +19,7 @@ $ cd Neighborhood-Map-React-
 3. Install the dependencies using `npm`
 
 ```
-$ npm install
+$ npm installnpm
 ```
 
 ## Launch
@@ -35,15 +35,20 @@ $ npm start
 ```
 http://localhost:3000
 ```
+## How to build and deploy
 
-## CORS will need to be turned off in order to access cross scripting from Wikipedia.org, you can enable this plugin in Chrome
+1. run npm run build and you are ready to deploy the app
+2. Several method can be used for deploying. For a simple static server deployment, run
 
 ```
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+npm install -g serve
+serve -s build
 ```
+## More Information
 
-## Packages Used
+https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment
 
-* React, React-dom, react-router, react-router-dom, react-scripts, react-select, create-react-class
-* Google Maps API
-* MediaWiki API
+open a browser and head for localhost:5000
+
+## Note:
+service worker is only working under production mode, which means you have to deploy the app to show its powerfulness.
