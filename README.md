@@ -19,7 +19,7 @@ $ cd Neighborhood-Map-React-
 3. Install the dependencies using `npm`
 
 ```
-$ npm installnpm
+$ npm install
 ```
 
 ## Launch
