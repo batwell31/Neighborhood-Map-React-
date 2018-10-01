@@ -86,7 +86,8 @@ class Map extends Component {
             if (response.ok) {
                 return response.json();
             }
-            throw new Error('Network response was not ok: ' + response.statusText);
+            self.state.infowindow.setContent("Sorry data can't be loaded");
+            return;
         }).then(function (data) {
             // do something with data
             const pages = data.query.pages
