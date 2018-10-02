@@ -86,7 +86,7 @@ class Map extends Component {
             if (response.ok) {
                 return response.json();
             }
-            self.state.infowindow.setContent("Sorry data can't be loaded");
+            outerMap.infowindow.setContent("Sorry data can't be loaded");
             return;
         }).then(function (data) {
             // do something with data
